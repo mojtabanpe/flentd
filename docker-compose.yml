@@ -11,12 +11,18 @@ services:
       - logging-net
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
+      - ./error.log:/var/log/nginx/error.log
+      - ./access.log:/var/log/nginx/access.log
       - ./default.conf:/etc/nginx/conf.d/default.conf
       - ./index.html:/var/www/html/index.html
-      # - ./json_log.conf:/etc/nginx/conf.d/json_log.conf
     ports:
       - 81:80
       - 443:443
+    logging:
+      driver: fluentd  
+      options:
+        fluentd-address: localhost:24224
+        tag: httpd.access
 
 
 networks:
