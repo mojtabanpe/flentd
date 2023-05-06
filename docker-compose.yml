@@ -1,26 +1,25 @@
 version: '3.7'
 
 services:
-  revproxy:
+  web_server:
     container_name: web_server
-    # build:
-    # context: .
-    # dockerfile: Dockerfile
-    image: nginx-fluentd
+    build:
+      context: .
+      dockerfile: Dockerfile
     restart: always
+    networks:
+      - logging-net
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
-      - ./error.log:/var/log/nginx/error.log
-      - ./access.log:/var/log/nginx/access.log
       - ./default.conf:/etc/nginx/conf.d/default.conf
+      - ./index.html:/var/www/html/index.html
+      # - ./json_log.conf:/etc/nginx/conf.d/json_log.conf
     ports:
-      - 80:80
+      - 81:80
       - 443:443
-    networks:
-      - nginx_network
+
 
 networks:
-  nginx_network:
+  logging-net:
     external: true
-  redis_network:
-    external: true
+

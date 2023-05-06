@@ -1,7 +1,7 @@
 FROM nginx:1.18
 MAINTAINER NGINX Amplify Engineering
 RUN apt-get update 
-RUN apt-get install apache2-utils -y
+# RUN apt-get install apache2-utils -y
 #     && apt-get install -qqy curl python apt-transport-https apt-utils gnupg1 procps 
 # RUN  echo 'deb https://packages.amplify.nginx.com/debian/ stretch amplify-agent' > /etc/apt/sources.list.d/nginx-amplify.list \
 #     && curl -fs https://nginx.org/keys/nginx_signing.key | apt-key add - > /dev/null 2>&1 
@@ -25,7 +25,7 @@ RUN unlink /var/log/nginx/access.log \
 # RUN ["chmod", "+x", "/entrypoint.sh"]
 # RUN ["chmod", "755", "/entrypoint.sh"]
 # ENTRYPOINT ["/entrypoint.sh"]
-RUN htpasswd -cb /etc/nginx/.htpasswd mojtaba Chibezaramkhob@
+# RUN htpasswd -cb /etc/nginx/.htpasswd mojtaba Chibezaramkhob@
 EXPOSE 80/tcp
 EXPOSE 443/tcp
 WORKDIR /usr/share/nginx/html
