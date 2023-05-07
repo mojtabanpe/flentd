@@ -15,17 +15,31 @@ services:
       - ./access.log:/var/log/nginx/access.log
       - ./default.conf:/etc/nginx/conf.d/default.conf
       - ./index.html:/var/www/html/index.html
+      - ./json_log.conf:/etc/nginx/conf.d/json_log.conf
     ports:
-      - 81:80
+      - 80:80
       - 443:443
-    logging:
-      driver: fluentd  
-      options:
-        fluentd-address: localhost:24224
-        tag: httpd.access
+    # logging:
+    #   driver: fluentd
+    #   options:
+    #     fluentd-address: localhost:24224
+    #     tag: httpd.access
+    depends_on:
+      - fluentd
 
+  fluentd:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: fluentd
+    volumes:
+      - ./fluent.conf:/fluentd/etc/fluent.conf
+    ports:
+      - "24224:24224"
+      - "24224:24224/udp"
+    networks:
+      - logging-net
 
 networks:
   logging-net:
     external: true
-

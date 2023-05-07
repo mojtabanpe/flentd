@@ -1,5 +1,22 @@
+FROM fluent/fluentd:v1.16-1
+
+# Use root account to use apk
+USER root
+
+# below RUN includes plugin as examples elasticsearch is not required
+# you may customize including plugins as you wish
+RUN apk add --no-cache --update --virtual .build-deps \
+    sudo build-base ruby-dev \
+    && sudo gem install fluent-plugin-elasticsearch \
+    && sudo gem sources --clear-all \
+    && apk del .build-deps \
+    && rm -rf /tmp/* /var/tmp/* /usr/lib/ruby/gems/*/cache/*.gem
+
+COPY fluent.conf /fluentd/etc/fluent.conf
+
+USER fluent
+
 FROM nginx:1.18
-MAINTAINER NGINX Amplify Engineering
 RUN apt-get update 
 # RUN apt-get install apache2-utils -y
 #     && apt-get install -qqy curl python apt-transport-https apt-utils gnupg1 procps 
@@ -10,6 +27,7 @@ RUN apt-get update
 # RUN apt-get purge -qqy curl apt-transport-https apt-utils gnupg1 \
 #     && rm -rf /etc/apt/sources.list.d/nginx-amplify.list \
 #     && rm -rf /var/lib/apt/lists/*
+
 
 RUN unlink /var/log/nginx/access.log \
     && unlink /var/log/nginx/error.log \
@@ -29,3 +47,4 @@ RUN unlink /var/log/nginx/access.log \
 EXPOSE 80/tcp
 EXPOSE 443/tcp
 WORKDIR /usr/share/nginx/html
+

@@ -1,0 +1,105 @@
+2023/05/07 09:00:02 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:00:02 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:00:03 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:00:04 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:00:05 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:00:07 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:00:11 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:00:18 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:00:31 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:00:57 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:01:49 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:11 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:12 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:12 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:13 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:14 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:16 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:20 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:27 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:40 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:52 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:53 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:53 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:54 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:55 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:02:57 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:01 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:08 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:21 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:29 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:30 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:31 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:31 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:33 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:35 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:38 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:45 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:03:59 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:04:25 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:05:16 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:06:17 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:07:17 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:08:18 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:09:19 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:10:19 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:11:20 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:12:20 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:13:20 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:14:21 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:15:21 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:16:22 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:17:22 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:18:23 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:19:23 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:19:28 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:19:29 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:19:29 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:19:30 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:19:31 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:19:33 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:19:37 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:19:44 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:19:57 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:20:23 [emerg] 1#1: invalid port in syslog server "<FLUENTD_HOST>:<FLUENTD_PORT>" in /etc/nginx/nginx.conf:57
+2023/05/07 09:54:10 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 09:54:10 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:54:12 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:54:13 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:54:14 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:54:17 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:54:21 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:54:28 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:54:42 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:55:08 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:56:00 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:57:01 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:58:02 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 09:59:03 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 10:00:04 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 10:01:05 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 10:02:06 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 10:03:09 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 10:04:10 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 10:05:11 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 10:06:11 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 10:07:13 [emerg] 1#1: host not found in syslog server "fluentd:24224" in /etc/nginx/nginx.conf:57
+2023/05/07 10:07:23 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:07:24 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:07:25 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:07:26 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:07:27 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:07:29 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:07:33 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:07:39 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:07:53 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:08:19 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:09:10 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:10:11 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:11:11 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:12:12 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:13:12 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:14:13 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:15:13 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:16:14 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57
+2023/05/07 10:17:14 [emerg] 1#1: unknown log format "json_log" in /etc/nginx/nginx.conf:57

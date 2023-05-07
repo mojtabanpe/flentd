@@ -1,1 +1,35 @@
-salam salam salam
+enqush bataa's profile photo
+enqush bataa
+unread,
+Jan 5, 2016, 4:27:14 AM
+to Fluentd Google Group
+Hi everyone.
+
+I'm using fluent-agent-hydra to send nginx access and error logs to EFK stack. It's successfully sending data and output
+goes to elasticsearch however I cannot parse the log properly.
+
+My nginx access log example:
+
+219.85.178.198 - - [05/Jan/2016:11:03:36 +0800] "GET /api/v1/blabla?page=1&mode=all&condition=latest HTTP/1.1" 200 800
+"https://blabla.cc/wiki" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)
+Chrome/47.0.2526.106 Safari/537.36"
+
+error log:
+
+2016/01/05 10:54:35 [error] 20863#0: *101644 open() "/home/blabla/blabla_statics/uploads/1102_1.jpg" failed (2: No such
+file or directory), client: 118.163.71.51, server: blabla.cc, request: "GET /uploads/1102_1.jpg HTTP/1.1", host:
+"miir.cc", referrer: "http://blabla.local/discovery/list/1102"
+
+td-agent conf:
+
+<source>
+@type forward
+port 24224
+format /^(?<remote>[^ ]*) (?<host>[^ ]*) (?<user>[^ ]*) \[(?<time>[^\]]*)\] [^ ]* "(?<method>\S+)(?: +(?<path>[^\"]*)
+                        +\S*)?" (?<code>[^ ]*) (?<size>[^ ]*)(?: "(?<referer>[^\"]*)" "(?<agent>[^\"]*)")?$/
+ time_format %d/%b/%Y:%H:%M:%S %z/
+</source>
+
+the problem is it cannot parse correctly. Also another question that I have is how can I also parse error logs? do I need to add another <source> field on my td-agent conf file? 
+
+Thanks.
